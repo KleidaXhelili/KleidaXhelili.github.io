@@ -1,0 +1,62 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+nav {
+  background-color: lightpink;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.lorem {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 300px;
+}
+
+p, img, .card {
+    border-radius: 8px;
+}
+
+.img_row2 {
+  width: 200px;
+}
+
+.carousel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+svg {
+  margin-left: 10px;
+}
+
+#background_image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blueviolet;
+  font-size: large;
+}
+
+.qr {
+    width: 100px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+
+.navbar-toggler, .navbar-toggler-icon{
+    border: 1px solid lightblue;
+}
+
+.navbar-brand, .nav-link{
+    color: #fff;
+}
