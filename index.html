@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrapicons@1.9.1/font/bootstrap-icons.css">
+
+    <title>Delizie di Jonida</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Cerca</button>
+                </form>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                    <path fill-rule="evenodd"
+                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <!-- La div ci-dessous permet de mettre en place un "conteneur" qui est centré grâce à la classe text-center qui figure dans le CSS de bootstrap. A l'intérieur du conteneur, il y une div créant un élément block en ligne à l'intérieur de laquelle il y a trois autres div en colonnes. Chacune de ces trois div occupent 4/12 (indiqué par la classe md-4, le 4 indiquant les parties de la grille occupées) de la grille bootstrap et se repartissent l'espace du navigateur équitablement et se réajustent l'une sur l'autre ou à coté de l'une l'autre au niveau du breakpoint Medium device indiqué ci-dessous par la classe md.  -->
+    <div class="container text-center py-md-5">
+        <!-- Dans la ligne ci-dessus la class py-md-5 indique qu'à partir du breakpoint medium device il y aura un padding (espacement à l'intérieur de l'élément) qui sera mis en place et sa valeur sera de 5 -->
+        <div class="row">
+            <div class="col md-4">
+                <img src="img/Logo LDJ.svg" alt="logo" class="logo">
+                <blockquote class="blockquote">
+                    <p>Queste sone le meraviglie di Jonida</p>
+                </blockquote>
+            </div>
+            <div class="col md-4">
+                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ipsam. Facere consectetur provident quisquam, atque cupiditate esse impedit suscipit adipisci deserunt molestiae magnam? Omnis eveniet ipsam corrupti quae itaque quis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+                numquam ad rem nulla nostrum nam alias cumque quaerat quam! Quisquam neque nemo fugit deserunt reprehenderit iste ipsam, magni quo voluptatem.
+                </p>
+                <div class="alert alert-danger" role="alert">
+                    Clic
+                </div>
+            </div>
+            <div class="col md-4">
+                <div class="card">
+                    <img src="img/Logo LDJ.svg" class="card-img-top" alt="logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Le delizie</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo culpa quod aliquid perspiciatis ipsam illo accusamus nihil voluptatibus?</p>
+                        <a href="#" class="btn btn-danger">Invia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Comme pour la div précédente, on a ci-dessous un conteneur qui est centré et à l'intérieur, il y une div créant un élément block et comporte une ligne. A l'intérieur de celle-ci il y a deux autres div en colonnes. L'une occupe les 4/12 (indiqué par la classe md-4, le 4 indiquant les parties occupées) de la grille bootstrap et l'autre occupe les 8/12 du reste de la grille et de la largeur de la page. Ces div col se réajustent et se mettent l'une sur l'autre dès que la taille de l'écran devient plus petit que le breakpoint Medium device indiqué ci-dessous par la classe sm. Etant donné que j'ai pris des photos dont la largeur était de 640px chacune, j'ai du les redimensinner dans ma feuille de style index.css . J'ai donné une largeur de 200px à chacune grâce à la classe img_row2, ce qui fait au total 400px. Cela permet aux deux div avec les padding et margin automatiques, de se mettre côte à côte dès que la taille de l'écran est supérieur à 576px  -->
+    <div class="container text-center">
+        <div class="row">
+            <p id="background_image" class="col md-12" style="background-image: url('img/img3.jpg');">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos commodi nam quo harum quia explicabo dolorum fugit rerum dolor aliquam. Adipisci quasi necessitatibus ducimus fugit ullam sunt odio repellat hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam atque maiores eum autem, vel assumenda repellat eligendi quidem unde sequi, vitae sed? Fugiat mollitia tenetur sequi deserunt! Ipsum, placeat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut ipsam odio nobis dicta architecto, sed in atque consectetur est, dignissimos ea praesentium. Mollitia, quod blanditiis. Quos tempora iure magni ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. A, id dolore, optio facere adipisci molestias quis eos placeat asperiores beatae quos modi vel assumenda. Aspernatur earum quaerat cumque? Iure, enim!</p>
+        </div>
+        <div class="row">
+            <div class="col sm-4">
+                <img src="img/img1.jpg" alt="logo" class="img_row2">
+            </div>
+            <div class="col sm-8">
+                <img src="img/img2.jpg" alt="logo" class="img_row2">
+            </div>
+        </div>
+        <!-- Dans la ligne ci-dessous la classe bg-warning est une classe contextuelle et qui permet de donner du style à notre div. Dans ce cas précis, il donne la couleur bleu turquoise au fond de la div -->
+        <div class="row carousel bg-info">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/img1.jpg" class="d-block w-100" alt="image couleurs pastels">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img2.jpg" class="d-block w-100" alt="image couleurs pastels">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img3.jpg" class="d-block w-100" alt="image couleurs pastels">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <footer>
+                <img src="img/qrLDJ.png" alt="QR code" class="qr">
+            </footer>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
